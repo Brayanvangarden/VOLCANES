@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parque Nacional Poás</title>
+  <link rel="stylesheet" href="estilos/styleArenal.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--carrusel-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: left;
+      background-color: rgb(184, 243, 116);
+      padding: 10px;
+    }
+
+    th,
+    td {
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body class=".grid-container">
+  <header>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"> </i>
+      </label>
+
+      <label class="logo">Volcán Arenal</label>
+      <ul>
+        <li>
+          <a class="active" href="#" onclick="mostrarContenido('contenido1')">Información</a>
+        </li>
+        <li>
+          <a href="#" onclick="mostrarContenido('contenido2')">HISTORIA</a>
+        </li>
+        <li>
+          <a href="#" onclick="mostrarContenido('contenido3')">CONTACTO</a>
+        </li>
+        <li>
+          <a href="#" onclick="mostrarContenido('contenido4')">CÓMO LLEGAR</a>
+        </li>
+        <li>
+          <a href="#" onclick="mostrarContenido('contenido5')">TARIFAS - HORARIOS</a>
+        </li>
+        <li>
+          <a href="#" onclick="mostrarContenido('contenido6')">GALERÍA</a>
+        </li>
+        <li>
+          <a href="#" onclick="mostrarContenido('contenido7')">Multimedia</a>
+        </li>
+        <li>
+          <a href="index.html" onclick="mostrarContenido('contenido7')">Volcán Poás</a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="main">
+      <!--INFORMACIÓN-->
+      <center>
+        <div id="contenido1" class="contenido">
+          <br />
+          <br />
+          <h1>Información</h1>
+          <br />
+          <br />
+          <p>
+            La imponencia del volcán Arenal es innegable y esto es en lo primero que
+            pensamos al visitar La Fortuna de San Carlos, donde se ubica esta maravilla natural.
+          </p>
+          <p>
+
+            Quien visite esta área protegida no debe perderse, además, las coladas de lava que bajaron en 1992, el
+            impresionante árbol de ceiba con más de 400 años de antigüedad y los senderos a lo largo de un extenso y
+            auténtico bosque lluvioso, donde puede apreciar la vida silvestre y los recursos que el Parque protege.
+          </p>
+          <p>
+            Además, con cada visita se contribuye directamente con la conservación de los recursos naturales, pues el
+            100 % de la entrada va al Fondo de Parques Nacionales, que se utiliza de forma solidaria para financiar
+            todas las áreas protegidas del país.
+            Parque Nacional Volcán Arenal, Costa Rica, Volcán Arenal, flora y fauna, parque, aves, avistadores de aves
+          </p>
+
+
+          <br><br>
+          <strong>
+            <p class="cuadro">
+              <a href="Documentos/arenal.pdf" download="Información Volcan"> Documentación del Volcán Arenal</a>
+            <p>
+          </strong>
+
+
+          <br />
+          <br />
+        </div>
+      </center>
+      <!--INFORMACIÓN-->
+
+      <!--hISTROIA-->
+      <center>
+        <div id="contenido2" class="contenido">
+          <br />
+          <br />
+          <h1>HISTORIA</h1>
+          <br />
+          <br />
+          <p>
+            El Parque Nacional Volcán Arenal (PNVA) fue creado el 30 de setiembre de 1991 mediante el Decreto Ejecutivo
+            No. 20791-MIRENEM. Posteriormente, su superficie se amplió por medio de los Decretos Ejecutivos No.
+            21197-MIRENEM (23 de abril de 1992) y No. 23774-MIRENEM (22 de noviembre del 1994).
+          </p>
+          <p>
+            Ésta área es de gran importancia para la conservación del régimen hídrico local, con lo que se garantiza el
+            aporte constante de aguas al embalse Arenal y a los asentamientos humanos cercanos. También considera la
+            belleza escénica y la actividad volcánica, que son atractivos turísticos importantes para el desarrollo
+            regional, la actividad económica y el aporte al sistema nacional de electrificación.
+          </p>
+
+          <br />
+
+        </div>
+      </center>
+      <!--hISTORIA FIN-->
+
+      <center>
+        <div id="contenido3" class="contenido">
+          <br />
+          <br />
+          <h1>CONTACTO</h1>
+          <br />
+          <br />
+          <p>
+            Contacto: 2200-4192
+            acahn.pnvolcanarenal@sinac.go.cr
+          </p>
+          <br>
+          <p><strong>Cámara de Turismo La Fortuna (Catuzon)</strong> </p>
+
+          <p>info@catuzon.com</p>
+          <p>www.catuzon.com</p>
+          <p>Tel.: (506) 2479-7512</p>
+          <br>
+          <p><strong>
+              Asociación de Desarrollo Integral de La Fortuna (Adifort)</strong> </p>
+
+          <p>info@arenaladifort.com</p>
+          <p>www.arenaladifort.com</p>
+          <p>Tel.: (506) 2479-8338​</p>
+          <br />
+          <br>
+          <strong>
+            <p class="cuadro"><a href="https://www.sinac.go.cr/ES/turismo/Paginas/parquesnacionales.aspx"
+                target="_blank">Información de otros parques nacionales</a></p>
+          </strong>
+
+          <br />
+          <br />
+        </div>
+      </center>
+
+      <center>
+        <div id="contenido4" class="contenido">
+          <br />
+          <br />
+          <h1>CÓMO LLEGAR</h1>
+          <br />
+          <br />
+          <p><strong>En vehículo:</strong></p>
+          <br />
+          <p>
+            ​Desde San José, tome la carretera Interamericana hacia el oeste con destino a San Ramón.
+          </p>
+          <p> Luego siga la carretera al norte a través de Los Ángeles, La Tigra y Chachagua hasta La Fortuna de ahí
+            tomar la ruta 142, 17</p>
+          <br />
+          <br />
+          <p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d502548.28631710535!2d-84.77633529206143!3d10.248798800382506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d9.997062099999999!2d-84.2173394!4m5!1s0x8fa00e962bb51111%3A0x1062d8c68ecdfecf!2sparuqe%20arenal%20maps%20google!3m2!1d10.461213599999999!2d-84.72814869999999!5e0!3m2!1ses!2scr!4v1696618541724!5m2!1ses!2scr"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </p>
+          <br />
+          <br />
+        </div>
+      </center>
+
+      <center>
+        <div id="contenido5" class="contenido">
+          <br />
+          <br />
+          <h1>TARIFAS - HORARIOS</h1>
+          <br />
+          <br />
+          <p><strong>Horario:</strong></p>
+          <br />
+          <p>
+            Todos los días de 8 a.m. a 4 p.m. 
+          </p>
+          <br />
+          <p><strong>Tarifas de ingreso con IVA incluido:</strong></p>
+          <br />
+          <br />
+          <table style="width: 100%">
+            <tr>
+              <th>PRECIO</th>
+              <th>VISITANTE</th>
+            </tr>
+            <tr>
+              <td>¢1130</td>
+              <td>Adulto nacional, y residente.</td>
+            </tr>
+            <tr>
+              <td>¢565</td>
+              <td>Niño (a) nacional, y residente.</td>
+            </tr>
+            <tr>
+              <td>$16,95</td>
+              <td>Adulto nov residente.</td>
+            </tr>
+            <tr>
+              <td>$5.65</td>
+              <td>
+                Niño (a) no residente.
+              </td>
+            </tr>
+          </table>
+          <br>
+          <br><br>
+        </div>
+      </center>
+    </section>
+
+    <center>
+      <div id="contenido6" class="contenido">
+
+        <!--inicio-->
+        <div class="container2">
+          <h1 class="text-center section-subheading">- Galería -</h1>
+          <br>
+          <div id="theCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores -->
+            <ol class="carousel-indicators">
+              <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#theCarousel" data-slide-to="1"></li>
+              <li data-target="#theCarousel" data-slide-to="2"></li>
+              <li data-target="#theCarousel" data-slide-to="3"></li>
+
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="Imagen/arenal1.jpg" alt="Arenal">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Arenal</h3>
+
+                </div>
+              </div>
+
+
+
+              <div class="item">
+                <img src="Imagen/arenal2.jpg" alt="Sendero" width="600" height="424">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3> Arenal </h3>
+
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="Imagen/arenal6.jpg" alt="diseno" width="600" height="424">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>volcan</h3>
+                  <br>
+
+                </div>
+              </div>
+              <div class="item">
+                <img src="Imagen/sapo.jpg" alt="diseno" width="600" height="424">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Sapito</h3>
+                  <br>
+
+                </div>
+              </div>
+              <div>
+                <br>
+                <br>
+
+
+              </div>
+            </div>
+            <br><br><br>
+
+          </div>
+          <audio controls>
+            <source src="Multimedia/audio.mp3" type="audio/mpeg">
+
+          </audio>
+          <br><br><br>
+          <!--fin-->
+
+        </div>
+
+      </div>
+    </center>
+
+    <center>
+      <div id="contenido7" class="contenido">
+
+        <!--inicio-->
+        <div class="container2">
+          <h1 class="text-center section-subheading">- Multimedia -</h1>
+          <br>
+        </div>
+        
+        <div class="container2">
+          <p><strong>ARENAL </strong></p>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ru-eyVXQynQ?si=O_-8Mc_uAYPzoyHN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+        <br><br>
+        <br>
+        <br><br>
+      </div>
+
+    </center>
+
+  </main>
+
+
+
+  <footer>
+
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
